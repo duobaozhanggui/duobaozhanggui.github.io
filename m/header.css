@@ -1,0 +1,27 @@
+* {
+  margin: 0;padding: 0;
+}
+.head_sty1{
+  width: 100%;margin: 0 auto;overflow: hidden;position: fixed;z-index: 10;top: 0;margin-top:-8px ;
+}
+.head_sty2{
+  max-width: 1200px;width: 100%;margin: 0 auto;overflow: hidden;
+}
+.head_sty3{
+  float: left;margin-top: 19px;
+}
+/* .head_sty4{
+  float: right;margin-top: 48px;color: #535353;
+} */
+.head_sty7{
+  float: right;margin-top: 48px;color: #000;
+}
+.head_sty5{
+  float: left;margin-left: 35px;cursor: pointer;height: 26px;
+}
+.head_sty5 a {
+  color: #333;text-decoration: none;
+}
+.det_sty_6 {
+  text-align: center;
+}

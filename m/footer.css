@@ -1,0 +1,57 @@
+  .foot {
+    width: 100%;
+    background-color: #313131;
+    height: 200px;
+  }
+  .foot a {
+    color: #7f7f7f;
+    text-decoration: none;
+  }
+  .foot a:hover {
+    cursor: pointer;color: #BDA16A;
+  }
+  .foot_sty1 {
+    margin-top: 36px;float: left;
+  }
+  .foot_sty2 {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 30px;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  .foot_sty2 div {
+    float: left;
+  }
+  .foot_sty3 div {
+    float: left;
+  }
+  .foot_sty3 :first-child {
+    width: 156px;
+  }
+  .foot_sty3 {
+    font-size: 12px;
+    color: #7f7f7f;
+    text-align: left;
+    margin-top: 8px;
+    overflow: hidden;
+    line-height: 14px;
+  }
+  .foot_sty4 {
+    text-align: right;
+    margin-top: 8px;
+    padding: 5px;
+    vertical-align: middle;
+    color: #7f7f7f;
+    border: 1px solid #7f7f7f;
+    position: relative;
+  }  
+  .foot_sty4 img{
+    position: absolute;
+    left: 8%;
+    top: 17%;
+  }   
+  .foot_sty5 img{
+    margin-top: 15px;width: 130px;height: 130px;margin-left: 50px;border-radius: 5px;;
+  }
