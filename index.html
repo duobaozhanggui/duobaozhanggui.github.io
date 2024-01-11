@@ -1,0 +1,630 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>多宝掌柜</title>
+  <meta name="keywords" content="多宝掌柜超市收银系统,会员管理软件,智慧零售,数字化收银软件">
+  <meta name="description" content="多宝掌柜提供收银系统、收银软件、进销存软件、超市收银软件、会员管理系统、收银机、库存管理软件等智慧零售解决方案，多宝掌柜打造更完善的智慧零售体系，为零售商创造更大效益！">
+  <link rel="icon" type="image/x-icon" href="m/ico.ico">
+  <script src="m/jquery.min.js"></script>
+  <link rel="stylesheet" href="m/header.css">
+  <link rel="stylesheet" href="m/footer.css">
+  <link rel="stylesheet" href="m/download_style.css">
+  <script src="m/config.js"></script><script src="m/jquery-1.10.2.min.js"></script><script src="m/pic-scroll.js"></script>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .new_dow {
+    width: 100%;
+    height: 604px;
+    background: url(./img/download_top.jpg) no-repeat center top;
+    overflow: hidden;
+  }
+
+  .new_dow1 {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 40px;
+  }
+
+  .new_dow11 {
+    width: 216px;
+    height: 45px;
+    margin-top: 361px;
+    margin-left: 196px;
+    cursor: pointer;
+  }
+
+  .new_dow111 {
+    width: 216px;
+    height: 45px;
+    margin-top: 11px;
+    margin-left: 196px;
+    cursor: pointer;
+  }
+
+  .new_dow12 {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .new_dow13 {
+    width: 200px;
+    float: left;
+    margin-bottom: 49px;
+  }
+
+  .new_dow13 img {
+    width: 64px;
+    height: 64px;
+    margin-left: 68px;
+  }
+
+  .new_dow13 div {
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 26px;
+    text-align: center;
+    color: #535353;
+  }
+
+  .new_dow14 {
+    margin-top: 75px;
+    font-size: 48px;
+    color: #BDA16A;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .new_dow15 {
+    margin-top: 34px;
+    font-size: 23px;
+    color: #535353;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: center;
+  }
+
+  .new_dow16 {
+    width: 382px;
+    float: left;
+    margin-right: 27px;
+    margin-bottom: 41px;
+  }
+
+  .new_dow16 img {
+    width: 382px;
+    height: 221px;
+  }
+
+  .new_dow16 div {
+    line-height: 24px;
+    font-size: 24px;
+    color: #535353;
+    margin-top: 23px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .new_dow17 {
+    overflow: hidden;
+    margin-top: 131px;
+  }
+
+  .new_dow18 {
+    float: left;
+    width: 316px;
+    margin-left: 39px;
+  }
+
+  .new_dow19 {
+    color: #C9B37A;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .new_dow2 {
+    width: 100%;
+    height: 932px;
+  }
+
+  .new_dow21 {
+    float: left;
+  }
+
+  .new_dow22 {
+    float: left;
+    width: 758px;
+  }
+
+  .new_dow23 {
+    margin-top: 153px;
+    font-size: 48px;
+    color: #BDA16A;
+    font-weight: 300;
+    line-height: 48px;
+  }
+
+  .new_dow24 {
+    margin-top: 33px;
+    font-size: 29px;
+    color: #535353;
+    font-weight: 300;
+    line-height: 29px;
+  }
+
+  .new_dow25 {
+    margin-top: 87px;
+    overflow: hidden;
+  }
+
+  .new_dow26 {
+    width: 333px;
+    height: 203px;
+    float: left;
+    margin-right: 27px;
+    border: 1px solid #F6F6F6;
+    background: #F6F6F6;
+    margin-bottom: 25px;
+  }
+
+  .new_dow26 div {
+    line-height: 22px;
+    font-size: 22px;
+    color: #BDA16A;
+    margin-top: 44px;
+    margin-left: 24px;
+  }
+
+  .new_dow26 p {
+    font-size: 15px;
+    line-height: 27px;
+    color: #535353;
+    width: 274px;
+    margin-top: 28px;
+    margin-left: 25px;
+  }
+
+  .new_dow27 {
+    color: #535353;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 21px;
+  }
+
+  .new_dow28 {
+    width: 100%;
+    height: 647px;
+    background: url(./img/download_productscan.png) no-repeat center top;
+  }
+
+  .new_dow29 {
+    overflow: hidden;
+    margin-top: 78px;
+  }
+
+  .new_dow3 {
+    width: 377px;
+    height: 720px;
+    float: left;
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+
+  .new_dow31 {
+    height: 677px;
+    border-right: 1px dotted #7F7F7F;
+    float: left;
+    margin-top: 45px;
+    width: 96px;
+  }
+
+  .new_dow32 {
+    overflow: hidden;
+    margin-top: 58px;
+    margin-left: 88px;
+  }
+
+  .new_dow33 {
+    width: 115px;
+    height: 114px;
+    float: left;
+  }
+
+  .new_dow34 {
+    color: #BDA16A;
+    line-height: 33px;
+    font-size: 33px;
+    margin-top: 20px;
+    margin-left: 27px;
+    font-weight: bold;
+  }
+
+  .new_dow35 {
+    color: #707070;
+    line-height: 25px;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 27px;
+  }
+
+  .new_dow36 {
+    width: 378px;
+    height: 181px;
+    background: #CFB685;
+    border-radius: 5px;
+    margin-left: 92px;
+    margin-top: 70px;
+    overflow: hidden;
+  }
+
+  .new_dow36 div {
+    color: #FFF;
+    line-height: 25px;
+    font-size: 25px;
+    margin-top: 12px;
+    margin-left: 27px;
+    margin-left: 24px;
+  }
+
+  .new_dow37 {
+    width: 100%;
+    height: 790px;
+    background: url(./img/download_orange.png) no-repeat center top;
+    margin-top: 68px;
+  }
+
+  .new_dow38 {
+    width: 100%;
+    height: 3601px;
+    background: url(./img/download_pay.png) no-repeat center top;
+  }
+
+  .new_dow39 {
+    width: 100%;
+    height: 725px;
+    background: url(./img/download21.png) no-repeat center top;
+  }
+</style><style type="text/css" id="photoShowStyles_pointerNone">*:before,*:after{pointer-events:none !important}</style></head>
+
+
+
+<body>
+  <div id="top" class="head_sty1">
+    <div class="head_sty2">
+      <img class="head_sty3" src="m/logo.png" alt="多宝掌柜收银软件">
+      <div class="head_sty7">
+        <div class="head_sty5" style="border-bottom:2px solid;color:#BDA16A">软件下载</div>
+        <div class="head_sty5"><a href="">关于我们</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="downloaddiv">
+    <div style="height: 112px; width: 100%"></div>
+    <div class="download_model1_elem1">
+      <div class="xuanze">
+        <div class="download_model1_elem2">
+          <img src="m/ico.ico" style="width: 60px;height: 60px;">
+        </div>
+        <div class="sy">
+          <div class="download_model1_elem3">
+            多宝掌柜收银系统
+          </div>
+          <div class="download_model1_elem4">
+            为门店管理者提供的专业云管理软件，注册即用。百万商家的共同选择！
+          </div>
+        </div>
+      </div>
+      <div class="zong">
+        <div class="two">
+          <div class="four1">
+            <div class="one">
+              <div class="tou">
+                <div class="xiaz">
+                  <div class="xiazai_1">
+                    零售版收银软件
+                  </div>
+                </div>
+                <div class="xiazai_2">
+                  适用商超、母婴、生鲜、美业、美妆、宠物等
+                </div>
+              </div>
+              <div class="diannao">
+                <img src="m/shangchao2.png" style="width: 72px;height: 70px;">
+              </div>
+            </div>
+            <div class="xiahuaxian"></div>
+            <div class="shiyong">
+              <p>适用硬件：笔记本、台式机、专业收银机、手机</p>
+              <p>配备系统：Windows 7及以上系统 （PC端）</p>
+              <p style="margin-left: 80px">Android5.1及以上、iOS12及以上（手机端）</p>
+            </div>
+            <div class="three">
+              <div class="three-one">
+                <div class="three-img">
+                  <img src="m/pc.png" style="width: 49px;height: 40px;">
+                </div>
+                <div class="kuang_11" onclick="download(0)">
+                  <div class="d_pc">
+                    PC端下载
+                  </div>
+                </div>
+              </div>
+              <div class="app-ios">
+                <div style="height: 90px;width: 90px;margin: 0 auto">
+                  <img src="m/iOSDownload.png" style="height: 90px;width: 90px;">
+                </div>
+                <div class="xiaozi" style="margin-left: -5px;">
+                  <p>ios客户端</p>
+                  <p>App Store搜索或微信扫码</p>
+                  <p>（手机端下载）</p>
+                </div>
+              </div>
+              <div class="app-ind">
+                <div style="height: 90px;width: 90px; margin: 0 auto;">
+                  <img src="m/androidDownload.png" style="height: 90px;width: 90px;">
+                </div>
+                <div class="xiaozi">
+                  <p>Android客户端</p>
+                  <p>浏览器扫码下载</p>
+                  <p>（手机端下载）</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="four1" style="margin-left:17px ">
+            <div class="one">
+              <div class="tou">
+                <div class="xiaz">
+                  <div class="xiazai_1">
+                    服装版收银软件
+                  </div>
+                </div>
+                <div class="xiazai_2">
+                  适用于服装、鞋帽、内衣、箱包、家纺、童装等
+                </div>
+              </div>
+              <div class="diannao">
+                <img src="m/fuzhuang2.png" style="width: 70px;height: 71px;">
+              </div>
+            </div>
+            <div class="xiahuaxian"></div>
+            <div class="shiyong">
+              <p>适用硬件：笔记本、台式机、专业收银机、手机</p>
+              <p>配备系统：Windows 7及以上系统 （PC端）</p>
+              <p style="margin-left: 80px">Android5.1及以上、iOS12及以上（手机端）</p>
+            </div>
+            <div class="three">
+              <div class="three-one">
+                <div class="three-img">
+                  <img src="m/pc.png" style="width: 49px;height: 40px;">
+                </div>
+                <div class="kuang_11" onclick="download(1)">
+                  <div class="d_pc">
+                    PC端下载
+                  </div>
+                </div>
+              </div>
+              <div class="app-ios">
+                <div style="height: 90px;width: 90px;margin: 0 auto">
+                  <img src="m/iOSDownload.png" style="height: 90px;width: 90px;">
+                </div>
+                <div class="xiaozi" style="margin-left: -5px;">
+                  <p>ios客户端</p>
+                  <p>App Store搜索或微信扫码</p>
+                  <p>（手机端下载）</p>
+                </div>
+              </div>
+              <div class="app-ind">
+                <div style="height: 90px;width: 90px; margin: 0 auto;">
+                  <img src="m/androidDownload.png" style="height: 90px;width: 90px;">
+                </div>
+                <div class="xiaozi">
+                  <p>Android客户端</p>
+                  <p>浏览器扫码下载</p>
+                  <p>（手机端下载）</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="two" style="margin-top: -47px;float: left">
+          <div class="four1">
+            <div class="one">
+              <div class="tou">
+                <div class="xiaz">
+                  <div class="xiazai_1">
+                    餐饮版收银软件
+                  </div>
+                </div>
+                <div class="xiazai_2">
+                  适用于酒楼、茶饮、中餐、美食广场、西餐酒吧等
+                </div>
+              </div>
+              <div class="diannao">
+                <img src="m/canyin2.png" style="width: 70px;height: 70px;">
+              </div>
+            </div>
+            <div class="xiahuaxian"></div>
+            <div class="shiyong">
+              <p>适用硬件：笔记本、台式机、专业收银机</p>
+              <p>配备系统：Windows 7以上系统</p>
+            </div>
+            <div class="three">
+              <div class="three-one">
+                <div class="three-img">
+                  <img src="m/pc.png" style="width: 49px;height: 40px;">
+                </div>
+                <div class="kuang_11" onclick="download(2)">
+                  <div class="d_pc">
+                    PC端下载
+                  </div>
+                </div>
+              </div>
+              <div class="app-ios">
+                <div style="height: 90px;width: 90px;margin: 0 auto">
+                  <img src="m/iOSDownload.png" style="height: 90px;width: 90px;">
+                </div>
+                <div class="xiaozi" style="margin-left: -5px;">
+                  <p>ios客户端</p>
+                  <p>App Store搜索或微信扫码</p>
+                  <p>（手机端下载）</p>
+                </div>
+              </div>
+              <div class="app-ind">
+                <div style="height: 90px;width: 90px; margin: 0 auto;">
+                  <img src="m/androidDownload.png" style="height: 90px;width: 90px;">
+                </div>
+                <div class="xiaozi">
+                  <p>Android客户端</p>
+                  <p>浏览器扫码下载</p>
+                  <p>（手机端下载）</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="four1" style="margin-left: 17px">
+            <div class="one">
+              <div class="tou">
+                <div class="xiaz" style="width: 213px">
+                  <div class="xiazai_1" style="width:180px;margin-left: 16px">
+                    奶茶烘焙版收银软件
+                  </div>
+                </div>
+                <div class="xiazai_2">
+                  适用于烘焙甜点、奶茶饮品、面包饼屋等
+                </div>
+              </div>
+              <div class="diannao">
+                <img src="m/hongbei2.png" style="width: 73px;height: 70px;">
+              </div>
+            </div>
+            <div class="xiahuaxian"></div>
+            <div class="shiyong">
+              <p>适用硬件：笔记本、台式机、专业收银机</p>
+              <p>配备系统：Windows 7以上系统</p>
+            </div>
+            <div class="pc-fz">
+              <div class="pc-img">
+                <div class="pc-img-1">
+                  <img src="m/pc.png" style="width: 49px;height: 40px;">
+                </div>
+                <div class="xiaozi" style="margin-top: 13px">&nbsp;</div>
+                <div class="kuang_11_1" onclick="download(3)">
+                  <div class="fz-d"> PC端下载
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="new_dow12" style="margin-top: 83px;">
+      <div class="new_dow13"><img src="m/download_stock.png" alt="库存管理">
+        <div>库存管理</div>
+      </div>
+      <div class="new_dow13"><img src="m/download_sales.png" alt="销售管理">
+        <div>销售管理</div>
+      </div>
+      <div class="new_dow13"><img src="m/download_purchase.png" alt="进货管理">
+        <div>进货管理</div>
+      </div>
+      <div class="new_dow13"><img src="m/download_scan.png" alt="扫码入库">
+        <div>扫码入库</div>
+      </div>
+      <div class="new_dow13"><img src="m/download_bulkcargo.png" alt="散货录入">
+        <div>散货录入</div>
+      </div>
+      <div class="new_dow13"><img src="m/download_authority.png" alt="员工权限">
+        <div>员工权限</div>
+      </div>
+      <div class="new_dow13" style="margin-top: 6px;"><img src="m/download_vip.png" alt="会员管理">
+        <div>会员管理</div>
+      </div>
+      <div class="new_dow13" style="margin-top: 6px;"><img src="m/download_point.png" alt="积分抵现兑换">
+        <div>积分抵现兑换</div>
+      </div>
+      <div class="new_dow13" style="margin-top: 6px;"><img src="m/download_wechat.png" alt="消费微信通知">
+        <div>消费微信通知</div>
+      </div>
+      <div class="new_dow13" style="margin-top: 6px;"><img src="m/download_vipcard.png" alt="会员次卡">
+        <div>会员次卡</div>
+      </div>
+      <div class="new_dow13" style="margin-top: 6px;"><img src="m/download_datainput.png" alt="数据批量导入">
+        <div>数据批量导入</div>
+      </div>
+      <div class="new_dow13" style="margin-top: 6px;"><img src="m/download_report.png" alt="数据报表">
+        <div>数据报表</div>
+      </div>
+    </div>
+    <div class="new_dow1">
+      <div class="new_dow14">支持全设备多平台使用</div>
+      <div class="new_dow15">手机、电脑、收银机皆可使用</div>
+      <div class="new_dow17">
+        <div class="new_dow18">
+          <div class="new_dow19">Mobile Client</div>
+          <div class="new_dow27">手机端</div>
+          <img src="m/download_phone.png" alt="支持安卓收银系统和IOS收银系统免费下载">
+        </div>
+        <div class="new_dow18" style="margin-left: 59px;">
+          <div class="new_dow19">Computer Terminal</div>
+          <div class="new_dow27">电脑端</div>
+          <img src="m/download_computer.png" alt="多宝掌柜收银软件支持电脑端PC免费下载">
+        </div>
+        <div class="new_dow18" style="margin-left: 71px;">
+          <div class="new_dow19">Cash Register</div>
+          <div class="new_dow27">收银机端</div>
+          <img src="m/download_self.png" alt="支持超市收银机系统">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <div style="height: 20px;"></div>
+    <div style="width: 1200px;margin: auto;">
+      <div class="foot_sty1"> <img src="m/footer01.png"> </div>
+      <div style="float: left;margin-left: 110px;margin-top: 50px;width: 460px;">
+        <div class="foot_sty3" style="margin-top: 9px;">
+          <div style="cursor: pointer"> <a href="">首页</a> </div>
+        </div>
+        <div class="foot_sty3">
+          <div style="cursor: pointer"> <a href="">产品</a> </div>
+          <div>手机：13013553334</div>
+        </div>
+        <div class="foot_sty3">
+          <div style="cursor: pointer;"> <a href="">软件下载</a> </div>
+          <div>“多宝掌柜”是创迹软件旗下品牌，提供超市收银系统、</div>
+        </div>
+        <div class="foot_sty3">
+          <div style="cursor: pointer"> <a href="">关于我们</a> </div>
+          <div>会员管理软件、会员系统等智慧零售解决方案。</div>
+        </div>
+        <div class="foot_sty3">
+          <div style="cursor: pointer"> <a href="https://beian.miit.gov.cn/" rel="nofollow" target="_blank" style="color: #7F7F7F;"></a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  function download(type) {
+    const list = ['Pos', 'Clothing', 'Catering', 'Baking']
+    window.open(`http://www.duobaozhanggui.com/duobao/website/download/${list[type]}.exe`)
+  }
+</script>
+</body><div id="photoShowViewer" class="sb_BingCA photoShow">
+        <div class="photoshow-viewer-shadow"></div>
+        <div class="photoshow-img-wrapper">
+          <img>
+          <div class="photoshow-view-mode-switch-tip">a</div>
+        </div>
+        <i class="photoshow-img-size"></i>
+      </div></html>
