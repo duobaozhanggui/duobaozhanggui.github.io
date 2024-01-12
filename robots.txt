@@ -1,0 +1,5 @@
+#robots.txt crated at https://tools.aizhan.com/robots-generator/ 
+User-agent: *
+Allow: /
+Disallow: /*admin*
+Sitemap: https://dbzg.ssss.loan/
